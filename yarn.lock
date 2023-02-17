@@ -5,9 +5,9 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@alexxgrib/stack-patcher@workspace:.":
+"stack-patcher@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@alexxgrib/stack-patcher@workspace:."
+  resolution: "stack-patcher@workspace:."
   dependencies:
     typescript: ^4.9.5
   languageName: unknown

@@ -1,5 +1,7 @@
 {
   "name": "stack-patcher",
+  "version": "1.0.0",
+  "private": false,
   "description": "Wraps calls in named function to have context in stacktrace",
   "keywords": [
     "stacktrace",

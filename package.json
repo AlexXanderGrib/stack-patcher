@@ -1,0 +1,64 @@
+{
+  "name": "stack-patcher",
+  "description": "Wraps calls in named function to have context in stacktrace",
+  "keywords": [
+    "stacktrace",
+    "logging",
+    "error",
+    "backend",
+    "frontend"
+  ],
+  "license": "MIT",
+  "packageManager": "yarn@3.3.0",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "type": "commonjs",
+  "main": "./index.js",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "typings": "./index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexXanderGrib/stack-patcher.git"
+  },
+  "author": {
+    "name": "Alexander Gribochkin",
+    "email": "me@alexxgrib.me",
+    "url": "https://alexxgrib.me"
+  },
+  "maintainers": [
+    {
+      "name": "Alexander Gribochkin",
+      "email": "me@alexxgrib.me",
+      "url": "https://alexxgrib.me"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/AlexXanderGrib/stack-patcher/issues",
+    "email": "me@alexxgrib.me"
+  },
+  "homepage": "https://github.com/AlexXanderGrib/stack-patcher#readme",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "require": "./index.js",
+      "import": "./index.mjs",
+      "types": "./index.d.ts"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.mjs",
+    "index.d.ts",
+    "README.md",
+    "LICENSE.txt"
+  ],
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}

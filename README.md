@@ -2,7 +2,7 @@
 
 > 4KB package wraps any function in function with your custom name to help you catch bugs in error stacktraces
 
-[Example](#example) &bull; [Source File](./index.ts) &bull; [Repo](https://) &bull; [Why??? [RU]](https://youtu.be/Lrs6puJ4G2Q)
+[Example](#example) &bull; [Source File](./index.ts) &bull; [Repo](https://github.com/AlexXanderGrib/stack-patcher) &bull; [Why??? [RU]](https://youtu.be/Lrs6puJ4G2Q)
 
 - **Small.** Weighs only `4KB`;
 - **Fast and Secure.** Uses JS-native approach of renaming functions instead of eval;

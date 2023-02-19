@@ -46,7 +46,7 @@ call.async()
 - **CommonJS** (default for **Node JS**)
 
   ```javascript
-  const { wrapCall } = require("@alexxgrib.me/stack-patcher");
+  const { wrapCall } = require("stack-patcher");
   ```
 
 - **TypeScript** or **ES Modules**
